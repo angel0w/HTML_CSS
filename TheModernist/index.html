@@ -12,13 +12,17 @@
       src="https://kit.fontawesome.com/d45a605501.js"
       crossorigin="anonymous"
     ></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
   </head>
   <body>
     <!-- NAVIGATION -->
     <header class="header">
       <div class="header-section container">
         <div class="the-modernist">
-          <h1>The Modernist</h1>
+          <h1 class="the-modernist-h1">The Modernist</h1>
           <p>Free PSD Website Template</p>
         </div>
 
@@ -36,11 +40,15 @@
     </header>
     <main>
       <!-- SECTION SLIDER -->
-      <section class="section ">
+
+      <section class="section">
         <div class="section-slider">
           <div class="text-block">
+            <button class="slider-control-left">
+              <ion-icon name="chevron-back-outline"></ion-icon>
+            </button>
             <h1>Cursus penati saccum nulla.</h1>
-            <p>
+            <p class="text-block-p">
               Nullamlacus dui ipsum conseque loborttis non euissque morbi penas
               dapibulum orna. Urnaultrices quis curabitur phasellentesuqe congue
               magnis vestibulum quismodo nulla et feugiat adipiscinia pellentum
@@ -50,7 +58,15 @@
               Read more Here <i class="fa-solid fa-angles-right"></i>
             </button>
           </div>
-          <div class="image-holder"></div>
+
+          <div class="image-holder">
+            <div class="image-holeder-oracle">380 x 380px</div>
+
+          <button class="slider-control-right">
+            <ion-icon name="chevron-forward-outline"></ion-icon>
+          </button>
+        </div>
+
         </div>
       </section>
     </main>
