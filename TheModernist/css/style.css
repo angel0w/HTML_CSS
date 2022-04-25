@@ -86,7 +86,7 @@
 display: grid;
 grid-template-columns: repeat(2,1fr);
 
-
+position: relative;
 }
 
 .text-block {
@@ -139,8 +139,8 @@ grid-template-columns: repeat(2,1fr);
 }
 
 .image-holder {
-  padding-right: 2.4rem;
-  position: relative;
+  /* padding-right: 2.4rem; */
+  /* position: relative; */
 }
 
 .image-holeder-oracle {
@@ -154,8 +154,7 @@ grid-template-columns: repeat(2,1fr);
   justify-content: center;
   border: 20px solid #6b6b6b;
   color: #fff;
-  /* margin-bottom: 3.2rem;
-  margin-right: 5.2rem; */
+
 
 }
 
@@ -163,7 +162,7 @@ grid-template-columns: repeat(2,1fr);
   position: absolute;
   right: 0;
   top: 50%;
-  transform: translate(100%, -50%);
+  transform: translate(0, -50%);
 
   background-color: #290000;
   border: none;
