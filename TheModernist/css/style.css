@@ -67,27 +67,35 @@
   transition: all 0.3s;
 }
 
+
+
 /* --------- SECTION SLIDER --------- */
 .section {
   background-color: #290000;
 }
 
 .section-slider {
-  display: flex;
+  /* display: flex; */
   flex-direction: row;
   margin: 0 auto;
   max-width: 105rem;
   padding: 3.2rem;
   justify-content: space-between;
   align-items: center;
+
+display: grid;
+grid-template-columns: repeat(2,1fr);
+
+
 }
 
 .text-block {
   color: #fff;
-  width: 35%;
+  /* width: 35%; */
   padding-left: 5.2rem;
   position: relative;
   /* margin: auto; */
+      padding-right: 133px;
 }
 
 .slider-control-left {
@@ -113,6 +121,7 @@
 .text-block p {
   color: #979797;
   margin-bottom: 2.4rem;
+  font-size: 1.35rem;
 }
 
 .btn-slider {
@@ -145,16 +154,16 @@
   justify-content: center;
   border: 20px solid #6b6b6b;
   color: #fff;
-  margin-bottom: 3.2rem;
-  margin-right: 5.2rem;
-  flex-shrink: 1;
+  /* margin-bottom: 3.2rem;
+  margin-right: 5.2rem; */
+
 }
 
 .slider-control-right {
   position: absolute;
   right: 0;
   top: 50%;
-  transform: translate(50%, -50%);
+  transform: translate(100%, -50%);
 
   background-color: #290000;
   border: none;
@@ -320,8 +329,10 @@
   padding: 3.2rem 3.2rem;
   margin: 0 auto;
 
-  /* display: flex; */
-  display: table;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  /* display: table; */
+
 }
 
 .From-the-blog,
@@ -333,11 +344,6 @@
 
 .contacts::after{
   margin-right: 0;
-}
-
-.boxes {
-  float: left;
-  width: 23%;
 }
 
 .boxes-h {
@@ -449,6 +455,10 @@
   margin-left: 1.7rem;
 }
 
+
+
+
+
 /*--------- FOOTER ---------*/
 
 .footer {
@@ -469,3 +479,9 @@
   color: #979797;
   font-size: 1.3rem;
 }
+
+.fa-angle-double-right:before, .fa-angles-right:before {
+  font-size: 0.9rem;
+}
+
+
