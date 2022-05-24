@@ -1,0 +1,192 @@
+/* - Font sizes (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+- Spacing system (px)
+
+1 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128 */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+/************* HEADER-CONTACT *************/
+
+.header-section {
+  background-color: #fff;
+}
+
+.header-contacts {
+  display: flex;
+  font-size: 1.6rem;
+  color: #696969;
+}
+
+.header-between {
+  max-width: 160rem;
+  padding: 0.5rem 3.2rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.search {
+  background-color: #e1e1e1;
+  border: none;
+  border-radius: 40rem;
+  padding: 0.4rem 0.8rem;
+
+  font-size: 1.4rem;
+  position: relative;
+}
+
+.search-icon {
+  position: absolute;
+  right: -3%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  background-color: #000000;
+  border-radius: 50%;
+  padding: 0.6rem;
+}
+
+/************* HEADER-NAVI *************/
+
+.nav {
+  background-color: #222222;
+  border-bottom: 3px solid #7c9c37;
+}
+.navi-container {
+  max-width: 160rem;
+  padding: 0.5rem 3.2rem;
+  margin: 0 auto;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+
+  align-items: center;
+  text-transform: uppercase;
+}
+
+.navi-container p {
+  text-transform: lowercase;
+  font-size: 1.2;
+}
+
+.logo {
+  padding: 2rem 0;
+  align-items: center;
+}
+
+.logo h1 {
+  font-size: 2.4rem;
+  text-transform: uppercase;
+}
+
+.logo span {
+  font-size: 4rem;
+}
+
+.logo p {
+  text-transform: none;
+  font-size: 1.4rem;
+}
+
+.navigationn {
+  display: flex;
+  font-size: 1.6rem;
+}
+
+.navigation-boxs {
+  padding: 0 2rem;
+  border-right: 1px solid #fff;
+}
+
+.navigation-boxs a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.navigation-boxs a:hover {
+    color: #7c9c37;
+}
+
+.navigation-boxs p {
+  color: #cccccc;
+}
+
+.navigation-boxs:last-child {
+  border-right: none;
+  padding-right: 0;
+}
+
+.navigationn li {
+  list-style: none;
+}
+
+/************* SLIDER *************/
+
+.slider {
+    background-color: #333333; 
+}
+
+.parrent-arrow {
+
+    max-width: 160rem;
+    padding: 0 3.2rem;
+    margin: 0 auto;
+
+    height: 38rem;
+    position: relative;
+    
+}
+
+.slider-container p {
+    font-size: 2.8rem;
+    color: #fff;
+    text-align: center;
+    left: 50%;
+    top: 50%;
+    position: absolute;               
+    transform: translate(-50%, -50%);
+}
+
+.arrow-icon {
+    font-size: 2.4rem;
+    color:#666666 ;
+    background-color: #000;
+    border-radius: 50%;
+    border: 1px solid #666666;
+    padding: 2px;
+    position: absolute;
+}
+
+.left-arrow {
+    position: absolute;
+    top: 50%;
+    left: 0;
+
+}
+
+.right-arrow {
+    position: absolute;
+    top: 50%;
+    right: 0%;
+
+}
+/************* SHOUT *************/
+
+/************* LATEST WORK *************/
+
+/************* CONTENT *************/
+
+/************* FOOTER *************/
+
+/************* COPYRIGHT *************/
