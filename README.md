@@ -3,4 +3,4 @@
 # HTML_CSS
 Practice
 # The Modernist
-![](screenshots Modernist-desktop.png)
+![](TheModernist screenshots Modernist-desktop.png)
