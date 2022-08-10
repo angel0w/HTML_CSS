@@ -135,6 +135,7 @@ html {
 
 .slider {
     background-color: #333333; 
+    height: 380px;
 }
 
 .parrent-arrow {
@@ -170,18 +171,40 @@ html {
 
 .left-arrow {
     position: absolute;
-    top: 50%;
-    left: 0;
-
+    top: 45%;
+    left: 2%;
+    font-size: 4rem;
 }
 
 .right-arrow {
     position: absolute;
-    top: 50%;
-    right: 0%;
+    top: 45%;
+    right: 2%;
+    font-size: 4rem;
 
 }
 /************* SHOUT *************/
+.shout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.shout div {
+  max-width: 160rem;
+  text-align: center;
+  /* border-bottom: 2px solid #e8e8e8; */
+  border-bottom: 3px solid transparent;
+  border-image: linear-gradient(0.25turn, #fff, #e8e8e8,#e8e8e8, #fff);
+  border-image-slice: 1;
+  
+}
+
+.shout div p {
+  font-size: 3.4rem ;
+  line-height: 50px;
+  margin: 5rem 0;
+}
 
 /************* LATEST WORK *************/
 
