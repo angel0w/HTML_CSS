@@ -391,18 +391,92 @@ footer {
 .footer-h3 {
     text-transform: uppercase;
     color: #666666;
-    font-size: 1.6rem;
+    font-size: 2rem;
     padding: 2.5rem 0;
 }
+/* -------------- ABOUT US -------------- */
+.about-us {
+    width: 25%;
+    height: 40rem;
+}
 
+.abouts-us-box {
+    height: 9rem;
+    /* width: 21.5rem; */
+    background-color: #333333;
+    color: #fff;
+    line-height: 9rem;
+    text-align: center;
+    font-size: 1.6rem;
 
+    border: 1px solid #3a3a3a;
+    padding: rem;
+}
+.abouts-us-border {
+    border: 2px solid #3a3a3a;
+    padding: 0.5rem;
+    margin: 2rem 2rem 2rem 0;
+}
 
+.about-us-p {
+    font-size: 1.6rem;
+    color: #666666;
+    margin-bottom: 1rem;
+}
 
+/* -------------- LINK BLOCK --------------  */
+.link-block {
+    color: #666666;
+    margin: 0 2rem 3rem 0;
+    width: 25%;
+}
+.link-block span {
+    font-size: 1rem;
+    color: #666666 !important;
+}
+.link-block p {
+    font-size: 1.6rem;
+    color: #7c9c37;
+}
+
+.link-block-divs {
+    padding: 0.6rem 0.5rem 0.5rem 0;
+    border-bottom: 1px solid #3a3a3a;
+}
+
+/* <!-- ------- FROM THE BLOG ------- --> */
+
+.from-the-blog {
+    width: 25%;
+}
+.from-the-blog-div1 {
+    margin-bottom: 2rem;
+}
+.from-the-blog-h3 {
+    font-size: 2rem;
+    color: #666666;
+}
+.from-the-blog-h3-span {
+    color: #666666;
+    font-size: 1.2rem;
+}
+
+.from-the-blog-h3-span-p {
+    margin-top: 0rem;
+    color: #666666;
+    font-size: 1.6rem;
+    line-height: rem;
+}
+
+.from-the-blog .services-heading-view {
+    margin-top: 1.4rem;
+}
 
 /* Contact us */
 
 .contact-us {
     margin-bottom: 3rem;
+    width: 25%;
 }
 
 .form {
@@ -417,7 +491,6 @@ button {
     padding: 1rem;
     margin: 0.5rem 0;
     border-radius: 7px;
-
 }
 
 .form button {
