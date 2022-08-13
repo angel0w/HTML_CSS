@@ -39,14 +39,19 @@
         <nav class="nav padding">
             <div class="nav-cont">
                 <div class="navi-container">
+
+                    <div class="menu-btn active">
+                        <span></span><span></span><span></span>
+                    </div>
+
                     <div class="logo">
                         <h1><span>A</span>llrounder</h1>
                         <p>Free PSD Wensite Template</p>
                     </div>
                     <div class="navigation">
-                        <ul class="navigationn">
+                        <ul class="navigationn active">
                             <div class="navigation-boxs">
-                                <li><a href="#">Homepage</a></li>
+                                <li><a href="#" class="active">Homepage</a></li>
                                 <p>test text here</p>
                             </div>
                             <div class="navigation-boxs">
@@ -315,7 +320,7 @@
                         <p>
                             <span class="material-symbols-outlined">
                                 double_arrow </span
-                            >&ensp;LoremIpsum dolor sit
+                            >&ensp;Lorem Ipsum dolor sit
                         </p>
                     </div>
                     <!-- 2 -->
@@ -446,7 +451,7 @@
                             >
                         </p>
                     </div>
-                    <h3 class="footer-h3">Newsletter</h3>
+                    <h3 class="footer-h3 h3newsletter">Newsletter</h3>
                     <div class="form">
                         <input
                             id="full-name"
@@ -474,5 +479,15 @@
                 <p>Template by OS Template</p>
             </div>
         </div>
+
+        <script>
+    const menuBtn = document.querySelector('.menu-btn');
+    const nav = document.querySelector('.navigationn');
+
+    menuBtn.addEventListener('click', function () {
+        this.classList.toggle('active');
+        nav.classList.toggle('active');
+    });
+        </script>
     </body>
 </html>
