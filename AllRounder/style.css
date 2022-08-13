@@ -59,14 +59,18 @@ html {
     cursor: pointer;
 }
 
+.padding {
+    padding: 0 2rem;
+}
 /************* HEADER-NAVI *************/
 
 .nav {
     background-color: #222222;
     border-bottom: 3px solid #7c9c37;
+    flex-wrap: wrap;
 }
 .nav-cont {
-    width: 120rem;
+    max-width: 120rem;
     margin: 0 auto;
 }
 .navi-container {
@@ -89,6 +93,7 @@ html {
 .logo {
     padding: 2rem 0;
     align-items: center;
+    cursor: pointer;
 }
 
 .logo h1 {
@@ -140,11 +145,12 @@ html {
 /************* SLIDER *************/
 
 .slider {
+    flex-wrap: wrap;
     background-color: #333333;
-    height: 380px;
+    min-height: 380px;
 }
 .slider-cont {
-    width: 120rem;
+    max-width: 120rem;
     margin: 0 auto;
 }
 .parrent-arrow {
@@ -180,22 +186,29 @@ html {
 .left-arrow {
     position: absolute;
     top: 45%;
-    left: 2%;
+    left: 0%;
     font-size: 4rem;
 }
 
 .right-arrow {
     position: absolute;
     top: 45%;
-    right: 2%;
+    right: 0%;
     font-size: 4rem;
 }
+
+.icon-inner, .ionicon, svg {
+    display: block;
+    height: 100%;
+    max-width: 100%;
+}
+
 /************* SHOUT *************/
 .shout {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 120rem;
+    max-width: 120rem;
     margin: 0 auto;
 }
 
@@ -217,9 +230,9 @@ html {
 /************* LATEST WORK *************/
 
 .latest-work {
-    padding: 6rem 0;
-
-    width: 120rem;
+    padding: 6rem 2rem;
+    gap: 2rem;
+    max-width: 120rem;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -231,7 +244,7 @@ html {
 
 .last-work-box {
     height: 14rem;
-    width: 22.5rem;
+    max-width: 22.5rem;
     line-height: 14rem;
     font-size: 2rem;
     background-color: #333333;
@@ -242,7 +255,7 @@ html {
 
 .last-work-text {
     background-color: #f0f0f0;
-    width: 22.5rem;
+    max-width: 22.5rem;
 }
 
 .last-work-text h3 {
@@ -261,14 +274,14 @@ html {
 .content {
     /* height: 50rem; */
     display: flex;
-    justify-content: space-around;
-    width: 120rem;
+    justify-content: space-between;
+    max-width: 120rem;
     margin: 0 auto;
     margin-bottom: 6rem;
 }
 .services {
     padding-right: 2rem;
-    width: 50%;
+    max-width: 50%;
 }
 
 .service-rows {
@@ -296,7 +309,7 @@ html {
     background-color: #353535;
     color: #e1e1e1;
     height: 48px;
-    width: 48px;
+    max-width: 48px;
     text-align: center;
     line-height: 48px;
 }
@@ -359,6 +372,7 @@ div a .material-symbols-outlined {
 .heads-img {
     display: flex;
     justify-content: space-between;
+    gap: 3rem;
 }
 
 .team-name {
@@ -383,7 +397,7 @@ footer {
 .footer-container {
     display: flex;
     justify-content: space-between;
-    width: 120rem;
+    max-width: 120rem;
     margin: 0 auto;
     border-bottom: 1px solid black;
 }
@@ -396,7 +410,7 @@ footer {
 }
 /* -------------- ABOUT US -------------- */
 .about-us {
-    width: 25%;
+    max-width: 25%;
     height: 40rem;
 }
 
@@ -428,7 +442,7 @@ footer {
 .link-block {
     color: #666666;
     margin: 0 2rem 3rem 0;
-    width: 25%;
+    max-width: 25%;
 }
 .link-block span {
     font-size: 1rem;
@@ -447,7 +461,7 @@ footer {
 /* <!-- ------- FROM THE BLOG ------- --> */
 
 .from-the-blog {
-    width: 25%;
+    max-width: 25%;
 }
 .from-the-blog-div1 {
     margin-bottom: 2rem;
@@ -476,7 +490,7 @@ footer {
 
 .contact-us {
     margin-bottom: 3rem;
-    width: 25%;
+    max-width: 25%;
 }
 
 .form {
@@ -497,7 +511,7 @@ button {
     background-color: #7c9c37;
     color: #fff;
     text-transform: uppercase;
-    width: 40%;
+    max-width: 40%;
     cursor: pointer;
 }
 
@@ -526,7 +540,7 @@ button {
     border-top: 1px solid #3a3a3a;
     display: flex;
     justify-content: space-between;
-    width: 120rem;
+    max-width: 120rem;
     color: #666666;
     margin: 0 auto;
     padding: 2rem 0;
