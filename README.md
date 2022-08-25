@@ -21,5 +21,5 @@ Practice
 <img src="AllRounder/screenshots/mobile(2).png" width="150" height="500">&nbsp;
 </p>
 
-# HomeFurniture Soon
+# Home Furniture Soon
 
