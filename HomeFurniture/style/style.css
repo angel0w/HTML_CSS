@@ -327,7 +327,7 @@ body > header > section > div.color-headings > p:nth-child(2) {
 .sec3-texture {
     position: absolute;
     left: 0%;
-    top: 50%;
+    top: 0%;
     z-index: -1;
 }
 
