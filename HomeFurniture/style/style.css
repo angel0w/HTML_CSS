@@ -132,7 +132,11 @@ body > header > section > div.color-headings > p:nth-child(2) {
 .header-form-input {
     padding: 10px 20px;
     text-transform: uppercase;
-    cursor: pointer;
+    border: none;
+}
+
+.header-form-input:hover {
+    border: none;
 }
 
 .header-form-btn {
@@ -145,14 +149,23 @@ body > header > section > div.color-headings > p:nth-child(2) {
     border: none;
     text-transform: uppercase;
     font-size: 18px;
+    cursor: pointer;
 }
 .header-form-btn:hover {
     color: #929496;
     background-color: #fff;
+    transition: 0.3s;
 }
 
 /* main */
 /* Tips to decorate */
+
+.sec1-texture {
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    z-index: -1;
+}
 
 .header-section {
     margin: 40px 0;
@@ -204,4 +217,79 @@ body > header > section > div.color-headings > p:nth-child(2) {
     margin: 0 auto;
     font-size: 14px;
     line-height: 14px;
+    z-index: 5;
+}
+
+/* This is Kyla Section2 */
+
+.this-is-kyla {
+    /* max-width: 90%; */
+    margin: 100px auto 30px auto;
+    display: flex;
+    justify-content: center;
+    /* justify-content: space-evenly */
+}
+
+.img{
+    position: relative;
+    max-width: 70%;
+}
+
+.image {
+    max-width: 1500px;
+}
+
+.text {
+    margin-left: 20px;
+    max-width: 16%;
+}
+
+.sec-texture-White {
+    position: absolute;
+    top: -20%;
+    left: -10%;
+    z-index: 11;
+}
+
+.sec2-shape {
+    max-width: 300px;
+    position: absolute;
+    bottom: -3%;
+    right: -15%;
+    max-width: 600px;
+}
+
+.text-header1 {
+    margin-top: 60px;
+    font-family: "Libre Baskerville", serif;
+    color: #cb9e61;
+    font-weight: 100;
+    font-size: 34px;
+}
+
+.text-header2 {
+    font-weight: 100;
+    font-family: "Libre Baskerville", serif;
+    color: #929496;
+    font-size: 28px;
+    margin-top: 50px;
+}
+
+.text-button {
+    font-family: "Libre Baskerville", serif;
+    margin: 40px 0px;
+    padding: 8px 30px;
+    font-size: 14px;
+    color: #fff;
+    background-color: #cb9e61;
+    border: none;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.text-p {
+    font-family: 'Allura', cursive;
+    font-size: 40px;
+    margin-top: 90px;
+
 }
