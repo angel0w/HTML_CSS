@@ -27,7 +27,7 @@ header h1 {
 }
 
 header h1,
-p {
+header p {
     font-family: "Libre Baskerville", serif;
     text-align: center;
     text-transform: uppercase;
@@ -149,4 +149,59 @@ body > header > section > div.color-headings > p:nth-child(2) {
 .header-form-btn:hover {
     color: #929496;
     background-color: #fff;
+}
+
+/* main */
+/* Tips to decorate */
+
+.header-section {
+    margin: 40px 0;
+}
+
+.tips-to-decorate {
+    margin: 0 auto;
+}
+
+.tips-h1 {
+    font-family: "Libre Baskerville", serif;
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 2px;
+    margin: 40px;
+}
+
+.tips-to-decorate ul {
+    display: flex;
+    flex-flow: row wrap;
+    max-width: 42%;
+    /* gap: 50px; */
+    list-style: none;
+    margin: 40px auto;
+    row-gap: 25px;
+    column-gap: 50px;
+}
+
+.tips-to-decorate ul li {
+    max-width: 233px;
+    height: auto;
+    flex: 1 0 33%;
+    /* min-height: 33.33vh; */
+}
+
+.tips-to-decorate ul li a {
+    text-decoration: none;
+}
+.tips-to-decorate ul li p {
+    background-color: #8c8c8c;
+    color: #fff;
+    font-size: 14px;
+    padding: 10px;
+}
+
+.tips-to-decorate-p {
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto;
+    font-size: 14px;
+    line-height: 14px;
 }
