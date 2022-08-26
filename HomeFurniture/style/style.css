@@ -11,6 +11,7 @@
 }
 
 body {
+    position: relative;
     font-family: "Montserrat", sans-serif;
     background-color: #fefdfc;
     color: #929496;
@@ -111,13 +112,18 @@ body > header > section > div.color-headings > p:nth-child(2) {
 .header-img {
     display: flex;
     align-items: center;
-    position: relative;
+    /* position: relative; */
     max-width: 100%;
 }
 .header-texture {
     position: absolute;
     top: -8%;
     right: 12%;
+}
+
+.header-input {
+    padding: 4px 0 0 10px;
+    color: #979797;
 }
 
 .header-section {
@@ -214,23 +220,23 @@ body > header > section > div.color-headings > p:nth-child(2) {
 .tips-to-decorate-p {
     text-align: center;
     max-width: 700px;
-    margin: 0 auto;
-    font-size: 14px;
+    margin: 40px auto;
+    font-size: 12px;
     line-height: 14px;
-    z-index: 5;
+    position: relative;
+    z-index: 2;
 }
 
 /* This is Kyla Section2 */
 
 .this-is-kyla {
-    /* max-width: 90%; */
     margin: 100px auto 30px auto;
     display: flex;
     justify-content: center;
     /* justify-content: space-evenly */
 }
 
-.img{
+.img {
     position: relative;
     max-width: 70%;
 }
@@ -248,7 +254,7 @@ body > header > section > div.color-headings > p:nth-child(2) {
     position: absolute;
     top: -20%;
     left: -10%;
-    z-index: 11;
+    z-index: 1;
 }
 
 .sec2-shape {
@@ -264,7 +270,7 @@ body > header > section > div.color-headings > p:nth-child(2) {
     font-family: "Libre Baskerville", serif;
     color: #cb9e61;
     font-weight: 100;
-    font-size: 34px;
+    font-size: 28px;
 }
 
 .text-header2 {
@@ -286,10 +292,169 @@ body > header > section > div.color-headings > p:nth-child(2) {
     text-transform: uppercase;
     cursor: pointer;
 }
+.text-button:hover {
+    background-color: #fff;
+    color: #929496;
+    border: 1px solid #929496;
+}
 
 .text-p {
-    font-family: 'Allura', cursive;
+    font-family: "Allura", cursive;
     font-size: 40px;
     margin-top: 90px;
+}
 
+/* Section3 Subscription */
+
+.subscription {
+    font-family: "Libre Baskerville", serif;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: right;
+}
+
+.subs-newsletter {
+    width: 900px;
+
+    padding: 0 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.sec3-texture {
+    position: absolute;
+    left: 0%;
+    top: 50%;
+    z-index: -1;
+}
+
+.subs-img {
+    max-width: 30%;
+    margin-left: 40px;
+}
+
+.subs-headings {
+    color: #cb9e61;
+    font-size: 28px;
+    /* align-items: flex-end; */
+    text-align: end;
+}
+
+.subs-headings2 {
+    font-size: 28px;
+}
+
+.subs-form {
+    text-align: end;
+    max-width: 523px;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.subs-form input {
+    width: 90%;
+    padding: 10px 30px;
+}
+.subs-form input:first-child {
+    padding: 10px 30px;
+    margin-bottom: 10px;
+    /* border: none; */
+}
+
+.subs-form p {
+    margin-top: 20px;
+    font-size: 14px;
+
+    text-align: end;
+}
+
+.btn {
+    font-family: inherit;
+    background-color: #cb9e61;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 16px;
+}
+
+.btn:hover {
+    background-color: #fff;
+    color: #929496;
+    border: 1px solid #8c8c8c;
+}
+
+/*  Section4 New season */
+
+.sec4-new-season h1 {
+    font-family: "Libre Baskerville", serif;
+    color: #cb9e61;
+    font-size: 50px;
+    text-transform: uppercase;
+    margin-top: 120px;
+    text-align: center;
+}
+
+.decors {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    z-index: 3;
+    gap: 10px;
+}
+
+.decors-decors-box {
+    align-items: flex-end;
+    display: flex;
+    position: relative;
+}
+
+.decors-shape {
+    position: absolute;
+    width: 120px;
+    bottom: 2%;
+    left: -13%;
+    z-index: -1;
+    rotate: ;
+}
+
+.decors-vaze {
+    position: absolute;
+    left: 0%;
+    bottom: 0%;
+}
+
+.decors-line {
+    position: absolute;
+    bottom: 42.6%;
+    right: 0%;
+    z-index: 2;
+}
+
+.decors-bedroms-box {
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.sec4-texture {
+    position: absolute;
+    top: 5%;
+    left: 0%;
+    z-index: 1;
+}
+
+.vaze-box {
+    position: relative;
+}
+
+.texture4 {
+    top: 2%;
+    right: 0%;
+    position: absolute;
+    /* width: 500px; */
+    z-index: -1;
 }
