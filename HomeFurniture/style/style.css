@@ -674,12 +674,15 @@ button {
     flex-direction: column;
     row-gap: 10px;
     margin-top: 40px;
+    justify-content: flex-end;
     position: relative;
 }
 
 .sec7-2pics-first {
-    top: 0;
-    left: 20%;
+    position: absolute;
+    top: 2%;
+    right: 58px;
+
 }
 
 .sec7-2pics-box {
