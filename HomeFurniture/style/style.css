@@ -18,6 +18,13 @@ body {
     font-size: 18px;
 }
 
+.sec4-texture {
+    position: absolute;
+    top: 5%;
+    left: 0%;
+    z-index: 1;
+}
+
 header {
     margin: 70px 70px;
 }
@@ -136,7 +143,7 @@ body > header > section > div.color-headings > p:nth-child(2) {
 }
 
 .header-form-input {
-    padding: 10px 20px;
+    padding: 10px 0 6px 20px;
     text-transform: uppercase;
     border: none;
 }
@@ -291,6 +298,7 @@ body > header > section > div.color-headings > p:nth-child(2) {
     border: none;
     text-transform: uppercase;
     cursor: pointer;
+    border: 1px solid #cb9e61;
 }
 .text-button:hover {
     background-color: #fff;
@@ -316,8 +324,7 @@ body > header > section > div.color-headings > p:nth-child(2) {
 
 .subs-newsletter {
     width: 900px;
-
-    padding: 0 50px;
+    /* padding: 0 50px; */
     display: flex;
     flex-direction: column;
     align-items: flex-end;
@@ -378,6 +385,7 @@ body > header > section > div.color-headings > p:nth-child(2) {
     cursor: pointer;
     text-transform: uppercase;
     color: #fff;
+    border: 1px solid #cb9e61;
     font-size: 16px;
 }
 
@@ -398,11 +406,41 @@ body > header > section > div.color-headings > p:nth-child(2) {
     text-align: center;
 }
 
+.decors-shape {
+    position: absolute;
+    width: 120px;
+    bottom: 2%;
+    left: -13%;
+    z-index: -1;
+}
+
+.texture4 {
+    top: 2%;
+    right: 0%;
+    position: absolute;
+    /* width: 500px; */
+    z-index: -1;
+}
+
+.decors-line {
+    position: absolute;
+    bottom: 32.2%;
+    right: 0%;
+}
+
+.docors-bedroms-texture {
+    position: absolute;
+    top: 0%;
+    left: -60%;
+}
+
+/* Boxes */
+
 .decors {
-    text-align: center;
     display: flex;
+    text-align: center;
     justify-content: center;
-    z-index: 3;
+    /* z-index: 3; */
     gap: 10px;
 }
 
@@ -412,49 +450,55 @@ body > header > section > div.color-headings > p:nth-child(2) {
     position: relative;
 }
 
-.decors-shape {
+.decors-decors-p {
+    background-color: #8c8c8c;
+    color: #fff;
     position: absolute;
-    width: 120px;
-    bottom: 2%;
-    left: -13%;
-    z-index: -1;
-    rotate: ;
-}
-
-.decors-vaze {
-    position: absolute;
-    left: 0%;
-    bottom: 0%;
-}
-
-.decors-line {
-    position: absolute;
-    bottom: 42.6%;
-    right: 0%;
-    z-index: 2;
+    width: 100%;
+    font-family: "Montserrat", sans-serif;
+    padding: 10px;
+    text-transform: uppercase;
+    font-size: 18px;
+    letter-spacing: 2px;
 }
 
 .decors-bedroms-box {
     display: flex;
     align-content: center;
     flex-wrap: wrap;
-}
-
-.sec4-texture {
-    position: absolute;
-    top: 5%;
-    left: 0%;
-    z-index: 1;
-}
-
-.vaze-box {
+    flex-direction: column;
     position: relative;
 }
 
-.texture4 {
-    top: 2%;
-    right: 0%;
+.decors-bedroms-bedp2 {
+    font-family: "Libre Baskerville", serif;
+    color: #cb9e61;
+    font-size: 38px;
+    text-align: left;
+    padding: 36px;
+}
+
+.decors-bedroms-bedp {
+    width: 100%;
+    background-color: #8c8c8c;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+
+.vaze-box {
+    display: flex;
+    position: relative;
+    flex-basis: 280px;
+}
+
+.vaze-box-img {
     position: absolute;
-    /* width: 500px; */
-    z-index: -1;
+    top: 100px;
+    z-index: 15;
+    width: auto;
 }
