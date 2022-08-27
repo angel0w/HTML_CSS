@@ -348,6 +348,7 @@ body > header > section > div.color-headings > p:nth-child(2) {
     font-size: 28px;
     /* align-items: flex-end; */
     text-align: end;
+    margin-bottom: 10px;
 }
 
 .subs-headings2 {
@@ -473,7 +474,7 @@ body > header > section > div.color-headings > p:nth-child(2) {
 .decors-bedroms-bedp2 {
     font-family: "Libre Baskerville", serif;
     color: #cb9e61;
-    font-size: 38px;
+    font-size: 28px;
     text-align: left;
     padding: 36px;
 }
@@ -501,4 +502,68 @@ body > header > section > div.color-headings > p:nth-child(2) {
     top: 100px;
     z-index: 15;
     width: auto;
+}
+
+/* Section 5 Do it yourself */
+
+.sec5-do-it {
+    margin: 150px 50px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 40px;
+    padding-left: 150px;
+}
+
+.sec5-text {
+    text-align: end;
+}
+
+.buff {
+    margin-top: 60px;
+}
+
+.sec-imgs-big-img {
+    position: relative;
+}
+
+.sec5-shape {
+    position: absolute;
+    bottom: -20%;
+    left: 0%;
+}
+
+.sec5-rectangle {
+    position: absolute;
+    top: 2%;
+}
+
+.sec5-small-img {
+    position: absolute;
+    bottom: -30%;
+    right: 10%;
+    /* display: inline-block; */
+}
+.sec5-paint-shape {
+    position: absolute;
+    bottom: -10%;
+    right: -25%;
+    z-index: -1;
+}
+
+.sec5-rounder1 {
+    position: absolute;
+    top: 38%;
+    right: -2%;
+}
+
+.sec5-rounder2 {
+    position: absolute;
+    top: 48%;
+    right: -2%;
+}
+
+.sec5-rounder3 {
+    position: absolute;
+    top: 58%;
+    right: -2%;
 }
