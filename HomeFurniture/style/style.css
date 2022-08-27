@@ -567,3 +567,86 @@ body > header > section > div.color-headings > p:nth-child(2) {
     top: 58%;
     right: -2%;
 }
+
+/* Section 6 Form */
+
+.sec6-form {
+    position: relative;
+}
+
+.sec6-box-img {
+    position: relative;
+}
+
+.sec6-img {
+    position: absolute;
+    z-index: -1;
+    top: 300px;
+    right: 14.5%;
+}
+
+.sec6-box-img h3 {
+    margin-top: 300px;
+    font-family: "Libre Baskerville", serif;
+    color: #cb9e61;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 100;
+}
+
+.sec6-box-form {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    max-width: 590px;
+    background: rgba(255, 255, 255, 0.6);
+    margin: 210px auto;
+    padding: 40px;
+    position: relative;
+}
+
+.sec6-box-form input,
+button {
+    padding: 10px 24px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.sec6-btn {
+    font-family: "Libre Baskerville", serif;
+    border: none;
+    background-color: #cb9e61;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    border: 1px solid #cb9e61;
+}
+
+.sec6-btn:hover {
+    background-color: #fff;
+    color: #929496;
+    border: 1px solid #8c8c8c;
+}
+
+.sec6-p {
+    color: #808183;
+    font-size: 16px;
+}
+.sec6-shape {
+    position: absolute;
+    bottom: -45%;
+    right: 18%;
+    z-index: -2;
+}
+
+.textureL {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+
+.textureR {
+    position: absolute;
+    top: 0%;
+    right: 0%;
+}
