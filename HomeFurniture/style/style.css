@@ -592,6 +592,8 @@ body > header > section > div.color-headings > p:nth-child(2) {
     text-align: center;
     font-size: 28px;
     font-weight: 100;
+    position: relative;
+    z-index: 10;
 }
 
 .sec6-box-form {
@@ -636,7 +638,7 @@ button {
     position: absolute;
     bottom: -45%;
     right: 18%;
-    z-index: -2;
+    z-index: 10;
 }
 
 .textureL {
@@ -650,3 +652,69 @@ button {
     top: 0%;
     right: 0%;
 }
+
+/* Section 7 Discounts */
+
+.sec7-discounts {
+    display: flex;
+    gap: 10px;
+    padding: 0 100px;
+    margin: 300px 175px;
+}
+
+.sec7-texture {
+    position: absolute;
+    right: 0%;
+    top: 6%;
+    z-index: -1;
+}
+
+.sec7-2pics {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    margin-top: 40px;
+    position: relative;
+}
+
+.sec7-2pics-first {
+    top: 0;
+    left: 20%;
+}
+
+.sec7-2pics-box {
+    font-family: "Libre Baskerville", serif;
+    display: flex;
+    color: #cb9e61;
+    align-items: center;
+}
+
+.sec7-2pics-p {
+    font-size: 108px;
+    margin: 20px 20px;
+}
+
+.sec7-2pics-p2 span {
+    font-size: 48px;
+}
+
+.sec7-2pics-p2 {
+    margin-top: 30px;
+}
+
+.sec7-line {
+    margin-right: 40px;
+}
+
+.sec7-bigImg {
+    position: relative;
+}
+
+.sec7-bigimg-shape {
+    position: absolute;
+    top: 10%;
+    left: -15%;
+    z-index: -1;
+}
+
+/* Section 8 Footer */
