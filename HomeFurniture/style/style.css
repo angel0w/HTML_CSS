@@ -199,7 +199,7 @@ body > header > section > div.color-headings > p:nth-child(2) {
 .tips-to-decorate ul {
     display: flex;
     flex-flow: row wrap;
-    max-width: 42%;
+    max-width: 53%;
     /* gap: 50px; */
     list-style: none;
     margin: 40px auto;
@@ -582,7 +582,6 @@ body > header > section > div.color-headings > p:nth-child(2) {
     position: absolute;
     z-index: -1;
     top: 300px;
-    right: 14.5%;
 }
 
 .sec6-box-img h3 {
@@ -649,7 +648,7 @@ button {
 
 .textureR {
     position: absolute;
-    top: 0%;
+    top: -32%;
     right: 0%;
 }
 
