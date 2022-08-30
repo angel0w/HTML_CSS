@@ -199,6 +199,7 @@ body > header > section > div.color-headings > p:nth-child(2) {
 .tips-to-decorate ul {
     display: flex;
     flex-flow: row wrap;
+    justify-content: center;
     max-width: 53%;
     /* gap: 50px; */
     list-style: none;
