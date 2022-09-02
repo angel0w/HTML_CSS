@@ -29,24 +29,27 @@ header {
     margin: 70px 70px;
 }
 
-header h1 {
+header div {
+    position: relative;
+}
+header div  h1 {
     font-size: 62px;
     letter-spacing: 10px;
 }
 
 header h1,
-header p {
+header div p {
     font-family: "Libre Baskerville", serif;
     text-align: center;
     text-transform: uppercase;
     line-height: 50px;
 }
 
-header h1 p {
+header div  h1 p {
     letter-spacing: 20px;
     margin-top: 50px;
 }
-body > header > p {
+body > header > div > p {
     margin-top: 10px;
     font-size: 20px;
     letter-spacing: 2px;
@@ -121,6 +124,7 @@ body > header > section > div.color-headings > p:nth-child(2) {
     align-items: center;
     /* position: relative; */
     max-width: 100%;
+    object-fit: contain;
 }
 .header-texture {
     position: absolute;
@@ -138,7 +142,7 @@ body > header > section > div.color-headings > p:nth-child(2) {
 }
 .header-form {
     bottom: 5%;
-    right: 16%;
+    right: 10%;
     position: absolute;
 }
 
@@ -818,4 +822,32 @@ button {
 
 .buff {
     margin-top: 60px;
+}
+
+
+/* BTN */
+.menu-btn {
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    cursor: pointer;
+    display: none;
+}
+
+.menu-btn span {
+    display: block;
+    width: 20px;
+    height: 2px;
+    background-color: #929496;
+    margin: 5px;
+}
+
+.menu-btn.active span:nth-child(1) {
+    transform: rotate(45deg) translateY(5px);
+}
+.menu-btn.active span:nth-child(2) {
+    display: none;
+}
+.menu-btn.active span:nth-child(3) {
+    transform: rotate(-45deg) translateY(-5px);
 }

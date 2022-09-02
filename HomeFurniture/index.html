@@ -7,6 +7,7 @@
         <title>Home Furniture</title>
         <link rel="stylesheet" href="/HomeFurniture/style/style.css" />
         <link rel="stylesheet" href="/HomeFurniture/style/query.css" />
+        <link rel="stylesheet" href="/HomeFurniture/script.js" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link
@@ -50,10 +51,15 @@
             alt=""
         />
         <header>
-            <h1 class="color-headings">My Home</h1>
-            <p class="p">Solutions for every day</p>
-            <nav class="navi">
-                <div>
+            <div>
+                <h1 class="color-headings">My Home</h1>
+                <p class="p">Solutions for every day</p>
+                <div class="menu-btn active">
+                    <span></span><span></span><span></span>
+                </div>
+            </div>
+            <nav class="navi active">
+                <div class="div-rooms">
                     <ul class="rooms">
                         <li><a href="#">About</a></li>
                         <li><a href="#">Bedroom</a></li>
@@ -276,6 +282,7 @@
                     <img
                         src="/HomeFurniture/pictures/Section3-Image.png"
                         alt="picture"
+                        class="sec3-img"
                     />
                 </div>
             </section>
@@ -419,11 +426,13 @@
                     src="/HomeFurniture/pictures/sec6-TextureL.png"
                     alt="textureL"
                     style="position: absolute; top: -30%; left: 0%"
+                    class="textureL"
                 />
                 <img
                     src="/HomeFurniture/pictures/sec6-Texture.R.png"
                     alt="textureR"
                     style="position: absolute; top: 0%; right: 0"
+                    class="textureR"
                 />
             </section>
 
@@ -517,5 +526,14 @@
                 </div>
             </div>
         </footer>
+        <script>
+            const menuBtn = document.querySelector(".menu-btn");
+            const nav = document.querySelector(".navi");
+
+            menuBtn.addEventListener("click", function () {
+                this.classList.toggle("active");
+                nav.classList.toggle("active");
+            });
+        </script>
     </body>
 </html>

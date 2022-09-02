@@ -1,0 +1,177 @@
+@media screen and (max-width: 1600px) {
+    .textureR {
+        display: none;
+    }
+
+    .textureL {
+        display: none;
+    }
+    .docors-bedroms-texture {
+        display: none;
+    }
+}
+@media screen and (max-width: 1455px) {
+    .header {
+        margin: 0 50px;
+    }
+    .header-texture {
+        display: none;
+    }
+
+    .sec7-texture {
+        display: none;
+    }
+
+    .sec-texture-White {
+        display: none;
+    }
+
+    .header-form {
+        bottom: 5%;
+        right: 5%;
+    }
+
+    .navi div ul li a {
+        justify-content: space-between;
+        padding: 10px;
+    }
+
+    body > header > nav > div:nth-child(1) > ul > li:nth-child(5) > a {
+        padding-right: 40px;
+    }
+
+    body > header > nav > div.contact > ul > li:nth-child(1) > a {
+        padding-left: 40px;
+    }
+
+    .sec6-img {
+        display: none;
+    }
+
+    .sec6-box-form {
+        margin: 0 auto;
+    }
+
+    .sec5-do-it {
+        justify-content: center;
+    }
+
+    .sec3-texture {
+        display: none;
+    }
+    .sec5-do-it {
+        padding-left: 0;
+        margin: 50px;
+        margin-top: 70px;
+        justify-content: flex-start;
+    }
+
+    .sec6-shape {
+        display: none;
+    }
+
+    .sec3-img {
+        display: none;
+    }
+
+    .subs-newsletter {
+        align-items: center;
+    }
+
+    .subs-headings {
+        text-align: center;
+    }
+
+    .subs-form {
+        text-align: center;
+    }
+
+    .subs-form p {
+        text-align: center;
+    }
+
+    .this-is-kyla {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .text {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .text p {
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width: 1420px) {
+    .decors-shape {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .sec4-new-season h1 {
+        margin-top: 70px;
+    }
+
+    .sec7-discounts {
+        justify-content: center;
+        margin: 100px auto;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .this-is-kyla {
+        margin: 50px auto;
+    }
+}
+
+@media screen and (max-width: 1250px) {
+    .menu-btn {
+        display: block;
+    }
+
+    .navi {
+        display: none;
+        margin: 30px 0 0 0;
+    }
+
+
+
+    .navi.active {
+        /* margin-top: 60px; */
+        padding-top: 10px;
+        border-top: 1px solid #929292;
+        display: block;
+    }
+    .nav li {
+        margin:15px 0;
+    }
+    .nav li a.active::after {
+        display: none;
+    }
+
+    .navi div ul {
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .navi div:first-child {
+        margin-bottom: 20px;
+    }
+
+    .contact ul li:first-child:before {
+        content: "";
+        border-right: none
+    }
+
+    body > header > nav > div.contact > ul > li:nth-child(1) > a {
+        padding-left: 0;
+    }
+
+    body > header > nav > div.contact > ul > li:nth-child(1) > a {
+        padding-left: 0;
+    }
+}
