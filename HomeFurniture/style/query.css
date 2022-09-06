@@ -9,6 +9,10 @@
     .docors-bedroms-texture {
         display: none;
     }
+
+    .sec2-shape {
+        max-width: 500px;
+    }
 }
 @media screen and (max-width: 1455px) {
     .header {
@@ -59,6 +63,10 @@
     .sec3-texture {
         display: none;
     }
+    .sec2-shape {
+        max-width: 400px;
+    }
+
     .sec5-do-it {
         padding-left: 0;
         margin: 50px;
@@ -116,15 +124,74 @@
         margin-top: 70px;
     }
 
+    .sec2-shape {
+        max-width: 350px;
+    }
+
     .sec7-discounts {
         justify-content: center;
         margin: 100px auto;
     }
+    
 }
 
 @media screen and (max-width: 1300px) {
     .this-is-kyla {
         margin: 50px auto;
+    }
+
+    .sec2-shape {
+        max-width: 350px;
+    }
+
+    .sec5-paint-shape {
+        display: none;
+    }
+
+    .decors-line {
+        display: none;
+    }
+
+    .text-header2 {
+        margin-top: 20px;
+    }
+
+    .text p {
+        margin-bottom: 20px;
+    }
+
+    .decors {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sec4-new-season h1 {
+        margin-bottom: 60px;
+    }
+
+    .decors-decors-box {
+        max-width: 700px;
+        height: auto;
+    }
+
+    .decors-bedroms-box {
+        max-width: 700px;
+        height: auto;
+    }
+
+    .sec4-bedrooms_img {
+        max-height: 350px;
+        max-width: 453px;
+    }
+
+    .vaze-box {
+        justify-content: center;
+        max-width: 400px;
+        height: 440px;
+    }
+
+    .vaze-box-img {
+        position: static;
     }
 }
 
@@ -138,8 +205,6 @@
         margin: 30px 0 0 0;
     }
 
-
-
     .navi.active {
         /* margin-top: 60px; */
         padding-top: 10px;
@@ -147,14 +212,14 @@
         display: block;
     }
     .nav li {
-        margin:15px 0;
+        margin: 15px 0;
     }
     .nav li a.active::after {
         display: none;
     }
 
     .navi div ul {
-        justify-content: center;
+        justify-content: left;
         gap: 20px;
     }
 
@@ -164,14 +229,32 @@
 
     .contact ul li:first-child:before {
         content: "";
-        border-right: none
+        border-right: none;
     }
 
     body > header > nav > div.contact > ul > li:nth-child(1) > a {
-        padding-left: 0;
+        padding-left: 10px;
     }
 
     body > header > nav > div.contact > ul > li:nth-child(1) > a {
-        padding-left: 0;
+        padding-left: 10px;
     }
+
+    .sec2-shape {
+        max-width: 300px;
+    }
+
+    .sec5-rectangle {
+        display: none;
+    }
+
+    .sec5-do-it {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+}
+
+@media screen and (max-width: px) {
+
 }
