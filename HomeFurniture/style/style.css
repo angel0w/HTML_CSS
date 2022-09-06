@@ -254,7 +254,7 @@ body > header > section > div.color-headings > p:nth-child(2) {
 }
 
 .image {
-    max-width: 1500px;
+    max-width: 900px;
 }
 
 .text {
@@ -324,7 +324,6 @@ body > header > section > div.color-headings > p:nth-child(2) {
     margin-top: 20px;
     display: flex;
     justify-content: center;
-    align-items: right;
 }
 
 .subs-newsletter {
@@ -664,6 +663,7 @@ button {
     gap: 8px;
     padding: 0 100px;
     margin: 300px 175px 100px 175px;
+    flex-wrap: wrap;
 }
 
 .sec7-texture {

@@ -10,6 +10,10 @@
         display: none;
     }
 
+    .tips-to-decorate ul {
+        max-width: 60%;
+    }
+
     .sec2-shape {
         max-width: 500px;
     }
@@ -22,6 +26,9 @@
         display: none;
     }
 
+    .text {
+        margin-left: 0;
+    }
     .sec7-texture {
         display: none;
     }
@@ -46,6 +53,14 @@
 
     body > header > nav > div.contact > ul > li:nth-child(1) > a {
         padding-left: 40px;
+    }
+
+    .text-header2 {
+        margin-top: 20px;
+    }
+
+    .tips-to-decorate ul {
+        max-width: 60%;
     }
 
     .sec6-img {
@@ -111,6 +126,10 @@
     .text p {
         margin-top: 0;
     }
+
+    .sec7-discounts {
+        margin-top: 100px;
+    }
 }
 
 @media screen and (max-width: 1420px) {
@@ -132,7 +151,19 @@
         justify-content: center;
         margin: 100px auto;
     }
-    
+}
+
+@media screen and (max-width: 1380px) {
+    .footer {
+        justify-content: space-between;
+        padding: 50px 40px;
+    }
+    .tips-to-decorate ul {
+        max-width: 80%;
+    }
+    .tips-to-decorate ul {
+        max-width: 77%;
+    }
 }
 
 @media screen and (max-width: 1300px) {
@@ -170,28 +201,33 @@
     }
 
     .decors-decors-box {
-        max-width: 700px;
+        max-width: 500px;
         height: auto;
+    }
+
+    .decor-decorimg {
+        width: 500px;
+        height: 400px;
     }
 
     .decors-bedroms-box {
-        max-width: 700px;
-        height: auto;
+        max-width: 500px;
     }
 
     .sec4-bedrooms_img {
-        max-height: 350px;
-        max-width: 453px;
+        width: 500px;
+        height: 400px;
     }
 
     .vaze-box {
         justify-content: center;
-        max-width: 400px;
-        height: 440px;
+        max-width: 500px;
     }
 
     .vaze-box-img {
         position: static;
+        width: 500px;
+        height: 400px;
     }
 }
 
@@ -252,9 +288,335 @@
         flex-direction: column;
         align-items: center;
     }
-    
 }
 
-@media screen and (max-width: px) {
+@media screen and (max-width: 1200px) {
+    body {
+        font-size: 16px;
+    }
 
+    .image {
+        max-width: 700px;
+    }
+
+    .footer {
+        gap: 20px;
+    }
+
+    .footer-list {
+        line-height: 34px;
+    }
+
+    .footer-headings {
+        font-size: 20px;
+    }
+
+    .footer-headings2 {
+        font-size: 22px;
+    }
+
+    .footer-header1 {
+        font-size: 19px;
+    }
+
+    .footer-header2 {
+        font-size: 54px;
+    }
+
+    .buff {
+        margin-top: 40px;
+    }
+}
+
+@media screen and (max-width: 1141px) {
+    .header-form {
+        bottom: 0;
+        right: 2%;
+    }
+    .header-form-input {
+        padding: 5px 10px;
+        font-size: 12px;
+        width: 100%;
+    }
+
+    .header-form-btn {
+        padding: 5px 10px;
+        font-size: 12px;
+    }
+
+    .sec2-shape {
+        width: 250px;
+    }
+}
+
+@media screen and (max-width: 1111px) {
+    .text-header1 {
+        margin-top: 0;
+    }
+    .tips-to-decorate {
+        padding: 30px;
+    }
+    .tips-to-decorate ul {
+        max-width: 92%;
+    }
+
+    .image {
+        max-width: 650px;
+    }
+    .sec2-shape {
+        width: 200px;
+        bottom: 8px;
+        right: -10px;
+    }
+
+    .sec-imgs-big-img {
+        max-width: 750px;
+    }
+
+    .sec7-bigimg-shape {
+        width: 150px;
+    }
+    .sec7-discounts {
+        flex-direction: column;
+        align-content: center;
+    }
+
+    .sec7-2pics-first {
+        position: static;
+    }
+
+    .footer {
+        flex-direction: column;
+    }
+
+    .footer-header1 {
+        margin-top: 40px;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .image {
+        max-width: 600px;
+    }
+
+    .tips-to-decorate-p {
+        padding: 0 20px;
+    }
+
+    .text {
+        padding: 0 20px;
+    }
+    .subs-form p {
+        padding: 0 20px;
+    }
+    .sec5-do-it {
+        padding: 20px;
+    }
+    .sec5-img {
+        max-width: 600px;
+    }
+    .sec5-shape {
+        max-width: 170px;
+    }
+    .sec6-box-img {
+        padding: 0 20px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .rooms {
+        flex-direction: column;
+    }
+    .contact ul {
+        flex-direction: column;
+    }
+    body > header > nav > div:nth-child(1) > ul > li:nth-child(2) > a {
+        padding: 0 10px;
+    }
+    body > header > nav > div:nth-child(1) > ul > li:nth-child(3) > a {
+        padding: 0 10px;
+    }
+
+    .image {
+        max-width: 500px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .tips-to-decorate ul {
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .image {
+        max-width: 400px;
+    }
+    .sec2-shape {
+        width: 150px;
+    }
+
+    .decor-decorimg,
+    .decors-bedroms-box,
+    .sec4-bedrooms_img,
+    .vaze-box-img,
+    .image {
+        width: 400px;
+    }
+
+    .sec5-img {
+        width: 450px;
+    }
+    .sec5-small-img {
+        width: 250px;
+    }
+    .sec5-shape {
+        max-width: 120px;
+    }
+
+    .sec5-rounder1 {
+        top: 30%;
+        right: -3%;
+    }
+    .sec5-rounder2 {
+        top: 44%;
+        right: -3%;
+    }
+
+    .sec5-rounder3 {
+        right: -3%;
+    }
+    .sec7-2pics-first {
+        width: 350px;
+    }
+}
+
+@media screen and (max-width: 722px) {
+    .sec4-new-season h1 {
+        font-size: 36px;
+    }
+
+    .sec2-shape {
+        width: 200px;
+        bottom: 0px;
+        right: 0;
+    }
+    .sec2-shape {
+        width: 150px;
+    }
+}
+
+@media screen and (max-width: 670px) {
+    header div h1 {
+        font-size: 52px;
+    }
+
+    body > header > div > p {
+        font-size: 18px;
+    }
+
+    .header-section div {
+        flex-direction: column-reverse;
+        gap: 0;
+    }
+
+    header div p {
+        line-height: 32px;
+    }
+
+    .tips-to-decorate {
+        padding: 0 30px;
+    }
+
+    .tips-h1,
+    .text-header1 {
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    .header-form-input,
+    .header-form-btn {
+        padding: 5px 5px;
+        font-size: 10px;
+    }
+
+    .sec5-do-it {
+        padding: 30px;
+    }
+
+    .sec5-img {
+        max-width: 500px;
+    }
+
+    .sec7-bigImg_img {
+        max-width: 470px;
+    }
+}
+
+@media screen and (max-width: 572px) {
+    .image,
+    .subs-form,
+    .decor-decorimg,
+    .decors-bedroms-box,
+    .sec4-bedrooms_img,
+    .vaze-box-img,
+    .image,
+    .sec7-bigImg_img {
+        max-width: 350px;
+        height: auto;
+    }
+
+    .subs-img {
+        display: none;
+    }
+    .sec7-2pics-first {
+        max-width: 270px;
+        height: auto;
+    }
+
+    .sec7-2pics-second {
+        max-width: 200px;
+        height: auto;
+    }
+    .sec5-small-img {
+        position: static;
+        float: right;
+        margin: auto;
+    }
+    .sec5-shape {
+        max-width: 100px;
+        bottom: -15px;
+    }
+    .sec5-rounder1 {
+        top: 30%;
+    }
+    .sec5-rounder2 {
+        top: 45%;
+    }
+    .sec5-rounder3 {
+        top: 60%;
+    }
+
+    .sec6-box-img h3 {
+        margin-top: 0;
+    }
+
+    .sec7-2pics-p {
+        font-size: 92px;
+    }
+
+    .sec7-2pics {
+        align-items: flex-start;
+    }
+
+    .footer-newsletter {
+        max-width: 350px;
+    }
+}
+
+@media screen and (max-width: 492px) {
+    .sec5-img {
+        max-width: 350px;
+    }
 }
