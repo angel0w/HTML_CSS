@@ -32,7 +32,7 @@ header {
 header div {
     position: relative;
 }
-header div  h1 {
+header div h1 {
     font-size: 62px;
     letter-spacing: 10px;
 }
@@ -45,7 +45,7 @@ header div p {
     line-height: 50px;
 }
 
-header div  h1 p {
+header div h1 p {
     letter-spacing: 20px;
     margin-top: 50px;
 }
@@ -823,7 +823,6 @@ button {
 .buff {
     margin-top: 60px;
 }
-
 
 /* BTN */
 .menu-btn {
