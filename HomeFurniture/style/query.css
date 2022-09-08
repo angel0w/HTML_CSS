@@ -675,6 +675,7 @@
 
     .sec5-small-img {
         width: 350px;
+        float: none;
     }
 
     body > header > section > div.color-headings > p:nth-child(2),
@@ -697,7 +698,10 @@
     .decor-decorimg {
         width: 260px;
     }
+    .decors-bedroms-box {
+        width: 260px;
 
+    }
     .sec4-bedrooms_img {
         width: 260px;
     }
@@ -757,6 +761,21 @@
 
     .sec2-shape {
         width: 100px;
+    }
+    .sec5-rounder1 {
+        display: none;
+    }
+    .sec5-rounder2 {
+        display: none;
+        
+    }
+
+    .sec5-rounder3 {
+        display: none;
+
+    }
+    .sec5-shape {
+        display: none;
     }
 }
 
