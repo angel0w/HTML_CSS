@@ -349,6 +349,14 @@
         width: 250px;
     }
 }
+@media screen and (max-width: 1121px) {
+    .sec7-2pics-first {
+        position: static;
+    }
+    .sec7-2pics {
+        margin-top: 0;
+    }
+}
 
 @media screen and (max-width: 1111px) {
     .text-header1 {
@@ -782,5 +790,12 @@
 @media screen and (max-width: 375px) {
     .image {
         width: 200px;
+    }
+
+    .sec7-2pics-p {
+        font-size: 56px;
+    }
+    .sec7-2pics-p2 {
+        font-size: 10px;
     }
 }
