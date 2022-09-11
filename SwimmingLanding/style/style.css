@@ -21,6 +21,8 @@ body {
 
 /* Header */
 header {
+    position: relative;
+    margin-bottom: 20rem;
 }
 
 .navi {
@@ -40,6 +42,11 @@ header {
     color: #4073de;
 }
 
+.logo_title span {
+    font-size: 2rem;
+    /* position: fixed; */
+}
+
 .navi ul {
     display: flex;
     /* gap: 2.6rem; */
@@ -47,22 +54,23 @@ header {
 }
 
 .navi ul li {
-
-    padding: 8% 2rem;
+    padding: 6% 2rem;
 }
 
 .navi ul li a {
     color: #000;
     font-weight: 500;
+    padding: 43% 2rem;
 }
 
 .navi ul li:hover {
     cursor: pointer;
-    background: #8E2DE2;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to bottom,#8E2DE2 , #4A00E0);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to bottom, #8E2DE2,#4A00E0 ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    
-
+    background: rgb(175, 92, 252);
+    background: linear-gradient(
+        180deg,
+        rgba(231, 92, 252, 100) 0%,
+        rgba(21, 31, 209, 100) 100%
+    );
 }
 
 .navi ul li a:hover {
@@ -74,4 +82,64 @@ header section {
 
 .header-section_img {
     width: 100%;
+}
+
+/*  */
+
+.header-section-box {
+    display: flex;
+    /* flex-wrap: wrap; */
+    margin: 0 5.4rem;
+    gap: 1.6rem;
+    position: absolute;
+    bottom: -10%;
+    
+}
+
+.header-section_boxes {
+    display: flex;
+    padding: 2rem;
+    gap: 1.7rem;
+    position: relative;
+}
+
+.header-section-box div h3 {
+    font-size: 3.6rem;
+
+}
+
+.header-section-box div p {
+    margin-top: 1rem;
+    font-size: 1.4rem;
+}
+
+.header-section-box_arrow {
+    width: 20%;
+    position: relative;
+}
+
+.md {
+    font-size: 3rem;
+    position: absolute;
+    bottom: 0;
+}
+
+.header-box_1 {
+    background: rgb(255,175,0);
+    background: linear-gradient(180deg, rgba(255,175,0,1) 0%, rgba(255,134,21,1) 100%);
+}
+
+.header-box_2 {
+    ackground: rgb(187,92,255);
+    background: linear-gradient(180deg, rgba(187,92,255,1) 0%, rgba(20,94,209,1) 100%);
+}
+
+.header-box_3 {
+    background: rgb(255,47,80);
+    background: linear-gradient(180deg, rgba(255,47,80,1) 0%, rgba(255,28,151,1) 100%);
+}
+
+.header-box_4 {
+    background: rgb(255,20,231);
+background: linear-gradient(180deg, rgba(255,20,231,1) 0%, rgba(183,31,224,1) 100%);
 }
