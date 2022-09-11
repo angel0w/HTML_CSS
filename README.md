@@ -25,4 +25,7 @@ Practice
 
 <p float="left">
 <img src="HomeFurniture/screenshots/desktop.png" width="280" height="1000">
+<img src="HomeFurniture/screenshots/small-screen_1024px.png" width="200" height="1000">&nbsp;
+<img src="HomeFurniture/screenshots/tablets_600px.png" width="280" height="1000">&nbsp;
+<img src="HomeFurniture/screenshots/mobile_375px.png" width="200" height="1000">&nbsp;
 </p>
