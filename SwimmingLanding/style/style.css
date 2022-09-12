@@ -29,12 +29,13 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 5.4rem;
+    margin: 0 0 0 4.6rem;
     height: 10rem;
 }
 
 .logo {
     cursor: pointer;
+    position: relative;
 }
 
 .logo_title {
@@ -44,7 +45,7 @@ header {
 
 .logo_title span {
     font-size: 2rem;
-    /* position: fixed; */
+    position: absolute;
 }
 
 .navi ul {
@@ -57,6 +58,9 @@ header {
     padding: 6% 2rem;
 }
 
+.navi ul li:last-child {
+    padding-right: 2.6rem;
+}
 .navi ul li a {
     color: #000;
     font-weight: 500;
@@ -65,11 +69,18 @@ header {
 
 .navi ul li:hover {
     cursor: pointer;
-    background: rgb(175, 92, 252);
+    /* background: rgb(175, 92, 252);
     background: linear-gradient(
         180deg,
         rgba(231, 92, 252, 100) 0%,
         rgba(21, 31, 209, 100) 100%
+    ); */
+
+    background: rgb(187, 92, 255);
+    background: linear-gradient(
+        180deg,
+        rgba(187, 92, 255, 1) 0%,
+        rgba(20, 94, 209, 1) 100%
     );
 }
 
@@ -93,7 +104,6 @@ header section {
     gap: 1.6rem;
     position: absolute;
     bottom: -10%;
-    
 }
 
 .header-section_boxes {
@@ -101,16 +111,16 @@ header section {
     padding: 2rem;
     gap: 1.7rem;
     position: relative;
+    color: #fff;
 }
 
 .header-section-box div h3 {
     font-size: 3.6rem;
-
 }
 
 .header-section-box div p {
     margin-top: 1rem;
-    font-size: 1.4rem;
+    font-size: 1.5rem;
 }
 
 .header-section-box_arrow {
@@ -122,24 +132,116 @@ header section {
     font-size: 3rem;
     position: absolute;
     bottom: 0;
+    cursor: pointer;
 }
 
 .header-box_1 {
-    background: rgb(255,175,0);
-    background: linear-gradient(180deg, rgba(255,175,0,1) 0%, rgba(255,134,21,1) 100%);
+    background: rgb(255, 175, 0);
+    background: linear-gradient(
+        180deg,
+        rgba(255, 175, 0, 1) 0%,
+        rgba(255, 134, 21, 1) 100%
+    );
 }
 
 .header-box_2 {
-    ackground: rgb(187,92,255);
-    background: linear-gradient(180deg, rgba(187,92,255,1) 0%, rgba(20,94,209,1) 100%);
+    background: rgb(187, 92, 255);
+    background: linear-gradient(
+        180deg,
+        rgba(187, 92, 255, 1) 0%,
+        rgba(20, 94, 209, 1) 100%
+    );
 }
 
 .header-box_3 {
-    background: rgb(255,47,80);
-    background: linear-gradient(180deg, rgba(255,47,80,1) 0%, rgba(255,28,151,1) 100%);
+    background: rgb(255, 47, 80);
+    background: linear-gradient(
+        180deg,
+        rgba(255, 47, 80, 1) 0%,
+        rgba(255, 28, 151, 1) 100%
+    );
 }
 
 .header-box_4 {
-    background: rgb(255,20,231);
-background: linear-gradient(180deg, rgba(255,20,231,1) 0%, rgba(183,31,224,1) 100%);
+    background: rgb(255, 20, 231);
+    background: linear-gradient(
+        180deg,
+        rgba(255, 20, 231, 1) 0%,
+        rgba(183, 31, 224, 1) 100%
+    );
+}
+
+/* Main */
+
+/* Section1 */
+.section1-the_school {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 0 4.6rem;
+    gap: 2rem;
+}
+
+.section1_2box {
+    /* width: 50%; */
+}
+
+.section1-the_school div {
+    display: flex;
+    gap: 2rem;
+    justify-content: center
+    /* padding: 2rem 0 2rem 0;  */
+}
+
+body > main > section > div:nth-child(1) > div,
+body > main > section > div:nth-child(2) > div {
+    flex-direction: column;
+}
+.section1_box {
+    background-color: #f7f7f7;
+    max-width: 50%;
+    padding: 6rem 3rem;
+
+}
+
+.section1_title {
+    font-weight: 500;
+    font-size: 3.4rem;
+}
+
+.section1_box .section1_title p {
+    font-size: 12rem;
+}
+
+.sec1_img {
+    max-width: 50%;
+}
+
+.btn {
+    padding: 2.5rem 5rem;
+    width: 26rem;
+    font-size: 1.8rem;
+    border: none;
+    background-color: #fff;
+    color: #000;
+    cursor: pointer;
+    background: rgb(255, 139, 0);
+    background: linear-gradient(
+        90deg,
+        rgba(255, 139, 0, 1) 0%,
+        rgba(255, 48, 79, 1) 100%
+    );
+}
+
+.btn:hover {
+    /* transform: scale(1.1); */
+    /* transition: 0.3s; */
+
+    color: #fff;
+    background: rgb(187, 92, 255);
+    background: linear-gradient(
+        180deg,
+        rgba(187, 92, 255, 1) 0%,
+        rgba(20, 94, 209, 1) 100%
+    );
 }
