@@ -4,8 +4,9 @@ html {
 }
 
 body {
-    font-family: "Roboto", sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 1.8rem;
+    background-color: #fff;
 }
 
 *,
@@ -22,7 +23,7 @@ body {
 /* Header */
 header {
     position: relative;
-    margin-bottom: 20rem;
+    margin-bottom: 12rem;
 }
 
 .navi {
@@ -154,7 +155,7 @@ header section {
 }
 
 .header-box_3 {
-    background: rgb(255, 47, 80);
+    background: c;
     background: linear-gradient(
         180deg,
         rgba(255, 47, 80, 1) 0%,
@@ -175,46 +176,50 @@ header section {
 
 /* Section1 */
 .section1-the_school {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
     margin: 0 4.6rem;
-    gap: 2rem;
 }
 
-.section1_2box {
-    /* width: 50%; */
+.section1_title {
+    padding: 0%;
+}
+.section1-our_school-box {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 3rem;
 }
 
-.section1-the_school div {
+.sec1_img {
+    width: 100%;
+}
+
+.section-our_school-text,
+.section-lessons-text {
     display: flex;
-    gap: 2rem;
-    justify-content: center
-    /* padding: 2rem 0 2rem 0;  */
-}
-
-body > main > section > div:nth-child(1) > div,
-body > main > section > div:nth-child(2) > div {
     flex-direction: column;
+    justify-content: center;
+    padding: 0 5rem;
 }
-.section1_box {
-    background-color: #f7f7f7;
-    max-width: 50%;
-    padding: 6rem 3rem;
 
+.section1_box {
+    background-color: #ececec;
 }
 
 .section1_title {
     font-weight: 500;
     font-size: 3.4rem;
 }
+body
+    > main
+    > section.section1-the_school
+    > div
+    > div.section-our_school-text.section1_box
+    > p {
+    margin: 3rem 0;
+}
 
 .section1_box .section1_title p {
     font-size: 12rem;
-}
-
-.sec1_img {
-    max-width: 50%;
 }
 
 .btn {
@@ -234,6 +239,59 @@ body > main > section > div:nth-child(2) > div {
 }
 
 .btn:hover {
+    /* transform: scale(1.1); */
+    /* transition: 0.3s; */
+
+    color: #fff;
+    background: rgb(255, 47, 80);
+    background: linear-gradient(
+        180deg,
+        rgba(187, 92, 255, 1) 0%,
+        rgba(20, 94, 209, 1) 100%
+    );
+}
+
+/* section2 school-rated */
+
+.section2-school_rated {
+    background-image: url(/SwimmingLanding/assets/section2-school-rated-img.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    margin: 5rem 0;
+    height: 70rem;
+    color: white;
+}
+
+body > main > section.section2-school_rated > div > div {
+    background-color: #ff012d;
+    opacity: 0.9;
+    display: inline-block;
+    height: 70rem;
+    margin-left: 5rem;
+    display: flex;
+    justify-content: center;
+    width: 45%;
+}
+
+body > main > section.section2-school_rated > div > div > p:nth-child(3) {
+    padding: 3rem 0;
+}
+.btn-sec2 {
+    padding: 2.5rem 5rem;
+    width: 26rem;
+    font-size: 1.8rem;
+    border: none;
+    color: #000;
+    cursor: pointer;
+
+    background: #fff;
+}
+
+.btn-sec2:hover {
     /* transform: scale(1.1); */
     /* transition: 0.3s; */
 
