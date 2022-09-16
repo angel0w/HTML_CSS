@@ -24,7 +24,6 @@ h3 {
     font-size: 3.4rem;
 }
 
-
 /* Header */
 header {
     position: relative;
@@ -219,6 +218,12 @@ body
     > section.section1-the_school
     > div
     > div.section-our_school-text.section1_box
+    > p,
+body
+    > main
+    > section.section1-the_school
+    > div
+    > div.section-lessons-text.section1_box
     > p {
     margin: 3rem 0;
 }
@@ -330,7 +335,6 @@ body > main > section.section2-school_rated > div > div > p:nth-child(3) {
     height: 100%;
     width: 50%;
     padding: 5rem;
-    
 }
 
 .section3-events ul li {
@@ -341,12 +345,10 @@ body > main > section.section2-school_rated > div > div > p:nth-child(3) {
 }
 
 .sec3-arrow {
-font-size: 1.8rem;
-position: static;
-margin-right: 3rem;
-
+    font-size: 1.8rem;
+    position: static;
+    margin-right: 3rem;
 }
-
 
 .section3-img {
     width: 50%;
