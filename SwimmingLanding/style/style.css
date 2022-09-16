@@ -97,11 +97,11 @@ header {
 
 .header-section-box {
     display: flex;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
     margin: 0 4.6rem;
     gap: 2rem;
     position: absolute;
-    bottom: -10%;
+    bottom: -11%;
 }
 
 .header-section_boxes {
@@ -110,6 +110,7 @@ header {
     gap: 1.7rem;
     position: relative;
     color: #fff;
+    width: 23.9%;
 }
 
 .header-section-box div h3 {
