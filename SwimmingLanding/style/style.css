@@ -19,6 +19,11 @@ body {
     text-decoration: none;
     list-style: none;
 }
+h3 {
+    font-weight: 500;
+    font-size: 3.4rem;
+}
+
 
 /* Header */
 header {
@@ -101,7 +106,7 @@ header {
     margin: 0 4.6rem;
     gap: 2rem;
     position: absolute;
-    bottom: -11%;
+    bottom: -8%;
 }
 
 .header-section_boxes {
@@ -179,7 +184,9 @@ header {
 
 .section1_title {
     padding: 0%;
+    margin-bottom: 4.6rem;
 }
+
 .section1-our_school-box {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -300,4 +307,55 @@ body > main > section.section2-school_rated > div > div > p:nth-child(3) {
         rgba(187, 92, 255, 1) 0%,
         rgba(20, 94, 209, 1) 100%
     );
+}
+
+/* section3 */
+.section3-our_events {
+    display: flex;
+    justify-content: center;
+    margin: 0 4.6rem;
+    gap: 2rem;
+    height: 40rem;
+
+    color: #fff;
+}
+
+.section3-events {
+    background: rgb(255, 175, 0);
+    background: linear-gradient(
+        180deg,
+        rgba(255, 175, 0, 1) 0%,
+        rgba(255, 134, 21, 1) 100%
+    );
+    height: 100%;
+    width: 50%;
+    padding: 5rem;
+    
+}
+
+.section3-events ul li {
+    margin: 3rem 0;
+}
+.section3-events ul li a {
+    color: #fff;
+}
+
+.sec3-arrow {
+font-size: 1.8rem;
+position: static;
+margin-right: 3rem;
+
+}
+
+
+.section3-img {
+    width: 50%;
+    /* height: 100%; */
+}
+
+.section3-the_img {
+    width: 100%;
+    overflow: hidden;
+    height: 100%;
+    object-fit: cover;
 }
